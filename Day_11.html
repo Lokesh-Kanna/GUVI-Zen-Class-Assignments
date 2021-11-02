@@ -1,4 +1,4 @@
-1. Fix the bugs in below snippet
+<!-- 1. Fix the bugs in below snippet -->
 <!-- <html lang="en">
     <head>
         <title>Document
@@ -196,3 +196,130 @@
 
     </body>
 </html>
+
+<!-- 8. Use the table tag to design given image -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            padding: 5px;
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+      </style>
+</head>
+<body>
+    <table>
+    <tr>
+        <th>State of health</th>
+        <th colspan="2">Fasting Value</th>
+        <th>After Remaining</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Minimum</td>
+        <td>Normal</td>
+        <td>2 hours of Eating</td>
+    </tr>
+    <tr>
+        <td>healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+    </tr>
+    <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 - 126</td>
+    </tr>
+    <tr>
+        <td>Diabetes</td>
+        <td>more than 126</td>
+        <td>Not Applicable</td>
+        <td>More than 200</td>
+    </tr>
+</table>
+    
+</body>
+</html>
+
+
+<!-- 9. Write HTML input tags snippet to show default values for all Form elements. -->
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <form>
+            <h3>Send us a message</h3>
+            <label for="fname">First name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter first name" value="Lokesh"><br><br>
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter last name" value="Kanna"><br><br>
+            <label for="email">Email address</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter your email" value="lk@gmail.com"><br><br>
+            <label for="comment">Enter your message below</label><br>
+            <textarea name="comment" id="comment" cols="30" rows="10" >Good comment...</textarea><br><br>
+          <button>Submit</button>
+        </form>
+        <div>
+            <h3>Our Info</h3>
+            <p>Contact No: 1234567890</p>
+            <p>Email: contactus@heaven.com</p>
+            <p>address: 25, heaven street, heaven.</p>
+        </div>
+    </body>
+    </html>
+
+<!-- 10. In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome" -->
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <p><mark>HTML & CSS is awesome</mark></p>
+    </body>
+    </html>
+
+<!-- 11. Create an HTML page, which should contain all types of input elements. -->
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <p>Types Of input elements</p>
+        <label for="text">Text element</label>
+        <input id="text" type="text" placeholder="Text element"><br>
+        <label for="radio">radio element</label>
+        <input id="radio" type="radio" ><br>
+        <label for="checkbox">checkbox element</label>
+        <input id="checkbox" type="checkbox"><br>
+        <input type="date"><br>
+        <label for="email">email element</label>
+        <input id="email" type="email"><br>
+        <label for="file">file element</label>
+        <input id="file" type="file"><br>
+        <label for="img">image element</label>
+        <input id="img" type="image"><br>
+        <label for="pass">Password element</label>
+        <input id="pass" type="password"><br>
+        <label for="num">Number element</label>
+        <input id="num" type="number"><br>
+        <label for="ran">Range element</label>
+        <input id="ran" type="range"><br>
+        <label for="ser">Search element</label>
+        <input id="ser" type="Search"><br>
+        <label for="tim">Time element</label>
+        <input id="tim" type="time"><br>
+        <label for="url">URL element</label>
+        <input id="url" type="url"><br>
+    </body>
+    </html>
